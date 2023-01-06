@@ -20,7 +20,7 @@ Gabriela Salonen: writing of the thesis, service design
 
 Others:
 
-Linnea Vaikkola: art (in the finished game)
+Linnea Vaikkola: story, art (in the finished game)
 
 Taneli Haikonen: music
 
