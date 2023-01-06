@@ -15,10 +15,13 @@ Other team members:
 Laurea:
 
 Arttu Mikkanen: story, service design
+
 Gabriela Salonen: writing of the thesis, service design
 
 Others:
 
 Linnea Vaikkola: art (in the finished game)
+
 Taneli Haikonen: music
+
 Employees of The Finnish Kidney and Liver Association: general help, guidance and requests
