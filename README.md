@@ -1,6 +1,6 @@
 # Javascript-Game-Prototype-for-The-Finnish-Kidney-and-Liver-Association
 
-The prototype of a Javascript game project programmed by me for The Finnish Kidney and Liver Association.
+The prototype of a JavaScript game project programmed by me for The Finnish Kidney and Liver Association.
 
 This game is part of my thesis, which is a teamwork project. My role in this project is to do most of the programming, and to guide the development process.
 
