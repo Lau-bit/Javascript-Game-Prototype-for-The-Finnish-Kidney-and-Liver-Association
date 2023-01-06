@@ -1,0 +1,275 @@
+body {
+    background-color: aquamarine;
+    width:95%;
+    text-align: center;
+    font-family: Century-Gothic;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+header {
+    width:100%;
+    background-color:aquamarine;
+    text-align:left
+}
+
+#canvasStack {
+    position: relative;
+    background-color:aquamarine;;
+    padding-top:25px;
+    padding-bottom:25px;
+    justify-content: center;
+    width:1024px;
+    height:768px;
+    margin:auto;
+}
+
+#canvas1 {
+    position: absolute;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#animationLayer {
+    position: absolute;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#canvaasi {
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+
+#valikkoContainer{
+    position: absolute;
+    top:40%;
+    width:1024px;
+    height:300px;
+    text-align:center;
+    background-color: blue;
+    align-items: center;
+}
+
+#lisasisalto {
+    margin:auto;
+    margin-top:50px;
+}
+
+footer {
+    background-color: lightblue;
+    height: 100px;
+    top: 0px;
+}
+
+#buttondiv {
+    position: absolute;
+    margin-top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    display: inline-flex;
+}
+
+#kylla {
+    top:85%;
+    font-size: 42px;
+    background-color: rgb(144, 208, 238);
+    margin: 10px;
+    margin-top:0px;
+    border-radius: 16px;
+    border-color:#ffffff;
+    height: 75px;
+    white-space: nowrap;
+}
+
+#kylla:hover{
+    background-color: rgb(116, 163, 184);
+    box-shadow: rgba(195, 255, 0, 0.5) 0 3px 8px;
+    color:white;
+}
+
+#valinta {
+    top:85%;
+    font-size: 42px;
+    background-color: rgb(144, 208, 238);
+    margin: 10px;
+    margin-top:0px;
+    border-radius: 12px;
+    height: 75px;
+    white-space: nowrap;
+}
+
+#valinta:hover{
+    background-color: rgb(116, 163, 184);
+    box-shadow: rgba(178, 170, 19, 0.5) 0 3px 8px;
+    color: white;
+}
+
+#ei {
+    top:85%;
+    font-size: 42px;
+    background-color: rgb(144, 208, 238);
+    margin: 10px;
+    margin-top:0px;
+    border-radius: 12px;
+    height: 75px;
+    white-space: nowrap;
+}
+
+#ei:hover{
+    background-color: rgb(116, 163, 184);
+    box-shadow: rgba(195, 255, 0, 0.5) 0 3px 8px;
+    color: white;
+} 
+
+#aloitaNappi {
+    font-size: 42px;
+    background-color: greenyellow;
+    border-radius: 16px;
+    border-color:white;
+
+}
+
+#aloitaNappi:hover{
+    background-color: rgb(116, 163, 184);
+    box-shadow: rgba(195, 255, 0, 0.5) 0 3px 8px;
+    color: white;
+} 
+
+#valikko{
+    position:absolute;
+    margin-top:20%;
+    left: 20%;
+    height: 320px;
+    width: 60%;
+    font-size: 24px;
+    background-color: rgb(144, 208, 238);
+    border-radius: 16px;
+    border-color:white;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 3px 8px;
+}
+
+#pelaaUudelleen{
+    position: relative;
+    top:40%;
+    font-size: 42px;
+    background-color: greenyellow;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+#pelaaUudelleen:hover{
+    background-color: rgb(116, 163, 184);
+    box-shadow: rgba(195, 255, 0, 0.5) 0 3px 8px;
+    color: white;
+} 
+
+#playAgain{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 90%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#muteDiv{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 8%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#muteButton{
+    position: relative;
+    top:40%;
+    font-size: 32px;
+    background-color: rgb(144, 208, 238);
+    margin: 10px;
+    border-radius: 12px;
+}
+
+/* @media (max-width: 1200px) {
+    #valikko{
+        padding:32px;
+        position:absolute;
+        top:10%;
+        left: 25%;
+        height: 60%; 
+        width: 50%;
+        font-size: 24px;
+        background-color: cyan;
+        border-radius: 16px;
+        border-color:white;
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.5) 0 3px 8px;
+
+     }
+     #playAgain{
+        position: absolute;
+        top: 12%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        white-space: nowrap;
+     }
+  }
+
+@media (min-width: 1200px) {
+    #valikko{
+        padding:32px;
+        position:absolute;
+        top:20%;
+        left: 25%;
+        height: 60%; 
+        width: 50%;
+        font-size: 24px;
+        background-color: cyan;
+        border-radius: 16px;
+        border-color:white;
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.5) 0 3px 8px;
+     }
+     #playAgain{
+        position: absolute;
+        top: 12%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+     }
+  }
+
+  @media (min-width: 1900px) {
+    #valikko{
+        padding:32px;
+        position:absolute;
+        top:20%;
+        left: 30%;
+        height: 60%; 
+        width: 40%;
+        font-size: 24px;
+        background-color: cyan;
+        border-radius: 16px;
+        border-color:white;
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.5) 0 3px 8px;
+     }
+     #playAgain{
+        position: absolute;
+        top: 12%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+     }
+  } */
